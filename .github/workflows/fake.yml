@@ -1,4 +1,4 @@
-name: Run Python script
+name: fake
 
 on:
   schedule:
