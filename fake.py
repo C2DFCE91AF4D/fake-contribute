@@ -25,7 +25,7 @@ if not run_command(['git', 'config', '--global', 'user.email', 'youremail@exampl
   exit(1)
 
 # 生成 50-150 个文件
-for _ in range(random.randint(50, 150)):
+for _ in range(random.randint(10, 500)):
   # 生成随机文件名
   filename = ''.join(random.choice(string.ascii_letters) for _ in range(10)) + '.txt'
   filepath = os.path.join('src', filename)
