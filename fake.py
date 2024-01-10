@@ -19,9 +19,9 @@ if not os.path.exists('src'):
   os.makedirs('src')
 
 # 设置 git 用户名和邮箱
-if not run_command(['git', 'config', '--global', 'user.name', 'Your Name']):
+if not run_command(['git', 'config', '--global', 'user.name', 'liyangxia']):
   exit(1)
-if not run_command(['git', 'config', '--global', 'user.email', 'youremail@example.com']):
+if not run_command(['git', 'config', '--global', 'user.email', '126838514+liyangxia@users.noreply.github.com']):
   exit(1)
 
 # 生成 50-150 个文件
