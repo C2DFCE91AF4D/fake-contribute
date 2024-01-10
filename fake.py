@@ -12,7 +12,7 @@ subprocess.run(['git', 'config', '--global', 'user.name', 'liyangxia'])
 subprocess.run(['git', 'config', '--global', 'user.email', '126838514+liyangxia@users.noreply.github.com'])
 
 # 生成 10-30 个文件
-for _ in range(random.randint(10, 30)):
+for _ in range(random.randint(10, 100)):
   # 生成随机文件名
   filename = ''.join(random.choice(string.ascii_letters) for _ in range(10)) + '.txt'
   filepath = os.path.join('src', filename)
