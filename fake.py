@@ -7,10 +7,6 @@ import subprocess
 if not os.path.exists('src'):
   os.makedirs('src')
 
-# 设置 git 用户名和邮箱
-subprocess.run(['git', 'config', '--global', 'user.name', 'liyangxia'])
-subprocess.run(['git', 'config', '--global', 'user.email', '126838514+liyangxia@users.noreply.github.com'])
-
 # 生成 10-30 个文件
 for _ in range(random.randint(10, 100)):
   # 生成随机文件名
